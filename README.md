@@ -15,6 +15,7 @@ The mathematical basis of this is the well-ordering principle applied to the set
 
 ## Usage
 
+### Case 1: "I need the number four!"
 ```python
 from induction import one
 from one import two
@@ -22,6 +23,16 @@ from two import three
 from three import four
 
 assert four == one + three
+```
+
+### Case 2: "I need the number four thousand, six hundred and thirty-two!"
+```python
+from induction import one
+from one import two
+from two import three
+from three import four
+...
+from four_thousand_six_hundred_and_thirty_one import four_thousand_six_hundred_and_thirty_two
 ```
 
 ## Proof
